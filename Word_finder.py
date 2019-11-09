@@ -60,8 +60,8 @@ def save_to_file(name,list_of_words):
         for i in list_of_words:
             f.write(i + '\n')
           
-from library import save_to_file
-from library import return_unic_words
+# from library import save_to_file
+# from library import return_unic_words
 # from library import read_from_file
 
 data = return_unic_words('data.txt')
